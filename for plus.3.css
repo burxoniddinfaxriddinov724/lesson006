@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main__banner {
+    margin: auto;
+    width: 750px;
+    height: 600px;
+    margin-top: 50px;
+    overflow: hidden;
+    background: #191919;
+    position: relative;
+}
+
+.box {
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    background: #4f77ff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+.title {
+    width: 120px;
+    height: 125px;
+    background: #191919;
+    border-radius: 0 0 0 100px;
+    position: absolute;
+    left: 315px;
+    top: 330px;
+    z-index: 1;
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background: #fffbda;
+    position: absolute;
+    left: 265px;
+    top: 210px;
+}
